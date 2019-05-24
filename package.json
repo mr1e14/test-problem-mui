@@ -1,0 +1,52 @@
+{
+  "name": "button-problem",
+  "version": "0.0.1",
+  "main": "src/server/index.js",
+  "scripts": {
+    "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
+    "test": "jest ./src"
+  },
+  "author": "mr1e14",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.0.0",
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-router-dom": "^5.0.0",
+    "react-transition-group": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.0",
+    "babel-jest": "23.6.0",
+    "babel-loader": "^8.0.0",
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^2.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jest": "^22.5.1",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "file-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "23.6.0",
+    "nodemon": "^1.17.3",
+    "react-test-renderer": "^16.8.6",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./test/setupTests.js"
+  }
+}
